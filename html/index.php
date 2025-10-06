@@ -4,9 +4,6 @@
 	</head>
 	<body>
 		<h1> Hello World! </h1>
-		<?php
-                $my_host = gethostname();
-                echo 'Running on host: ' $my_host
-		?>
+		<h1>This page is served by: <?php echo gethostname(); ?></h1>
 	</body>
 </html>
