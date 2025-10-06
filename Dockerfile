@@ -1,4 +1,4 @@
-ROM docker.io/php:8.2.28-apache
+FROM docker.io/php:8.2.28-apache
 
 RUN sed -i 's/^Listen 80/Listen 8080/' /etc/apache2/ports.conf
 
