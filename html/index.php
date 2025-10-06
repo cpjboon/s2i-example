@@ -5,7 +5,8 @@
 	<body>
 		<h1> Hello World! </h1>
 		<?php
-                echo 'Running on host: ' gethostname();
+                my_host = gethostname();
+                echo 'Running on host: ' $my_host
 		?>
 	</body>
 </html>
